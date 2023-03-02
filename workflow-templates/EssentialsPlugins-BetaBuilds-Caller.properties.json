@@ -1,5 +1,5 @@
 {
     "name": "PepperDash Essentials Plugin Beta Build",
     "description": "Call the EPI beta build workflow",
-    "iconName": "essentials-plugin-blue.svg"
+    "iconName": "essentials-plugin-blue"
 }
