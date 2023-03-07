@@ -1,8 +1,9 @@
-name: Beta Build
+name: Release Build
 
 on: 
   push:
-    - $default-branch
+    branches: 
+      - $default-branch
 
   workflow_dispatch: 
     inputs: 
