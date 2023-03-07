@@ -17,6 +17,6 @@ jobs:
     secrets: inherit
     with: 
       branch: ${{ inputs.branch }}
-      defualt-branch: ${{ default-branch }}
+      default-branch: $default-branch
 
 
