@@ -3,9 +3,8 @@ name: Generate README
 
 on:
   push:
-    branches:
-      - '**'
-  workflow_dispatch:
+    branches-ignore:
+      - 'robot-docs'
 
 jobs:
   call-update-readme:
@@ -13,4 +12,3 @@ jobs:
     with:
       target-branch: ${{ github.ref_name }}
 
-        
