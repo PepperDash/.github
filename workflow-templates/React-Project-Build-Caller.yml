@@ -1,0 +1,10 @@
+name: react-project-build-caller 
+on:
+  push:
+    branches:
+      - '**'
+jobs:
+  get_version:
+    uses: PepperDash/workflow-templates/.github/workflows/react-project-build.yml@react-builds
+    secrets: inherit
+  
