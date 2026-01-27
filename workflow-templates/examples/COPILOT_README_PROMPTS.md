@@ -1,6 +1,6 @@
 # README Update Prompt for GitHub Copilot
 
-This is a sample prompt file that should be placed at `.github/workflow-templates/COPILOT_README_PROMPTS.md` in your repository.
+This is a sample prompt file that should be placed at `.github/copilot-prompts/README_UPDATE.md` in your repository.
 
 The workflow will read this file and use GitHub Copilot CLI to generate or update your README.md based on these instructions.
 
